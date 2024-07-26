@@ -169,6 +169,11 @@ section {
   height: 80vh;
 }
 
+#profile_pics {
+  border-radius: 60%;
+  transform: scale(1.2);
+}
+
 .section__pic-container {
   display: flex;
   height: 400px;
@@ -276,6 +281,7 @@ section {
 .about-details-container {
   justify-content: center;
   flex-direction: column;
+  padding-top: 50px;
 }
 
 .about-containers,
@@ -285,6 +291,7 @@ section {
 
 .about-pic {
   border-radius: 2rem;
+  transform: scale(1.2);
 }
 
 .arrow {
